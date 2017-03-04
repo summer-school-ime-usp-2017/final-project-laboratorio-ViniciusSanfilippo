@@ -15,6 +15,7 @@
 
       @yield('content')
 
+      <a href="javascript:window.history.go(-1)">VOLTAR</a>
     </div>
 
     <script src="/js/app.js" type="text/javascript"></script>

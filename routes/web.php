@@ -26,3 +26,7 @@ Route::post('/medicos' , 'MedicoController@armazena');
 Route::get('/exames' , 'ExameController@index');
 Route::get('/exames/cria' , 'ExameController@cria');
 Route::post('/exames' , 'ExameController@armazena');
+
+Route::get('/pedidos' , 'PedidoController@index');
+Route::get('/pedidos/cria' , 'PedidoController@cria');
+Route::post('/pedidos' , 'PedidoController@armazena');
